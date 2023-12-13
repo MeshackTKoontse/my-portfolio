@@ -1,0 +1,111 @@
+body {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.705),
+      rgba(255, 255, 255, 0.722)
+    ),
+    url("/images/website-designer-in-botswana.png");
+
+  position: relative;
+
+  font-family: "Poppins", sans-serif;
+}
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+.navbar-toggler:hover {
+  background-color: #0076b600;
+  border: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+  border: none;
+}
+.navbar-toggler:active {
+  outline: none;
+  border: none;
+}
+.section {
+  min-height: 100vh;
+
+  margin-top: 20px;
+}
+.skills {
+  margin: 20px;
+}
+ul:nth-child(1) {
+  margin: auto 0;
+  padding-left: 0;
+  justify-content: start;
+}
+
+ul:nth-child(2) {
+  margin: auto;
+  padding-left: 0;
+}
+ul:nth-child(1) > a > h5 {
+  margin: 20px 0;
+  color: #03045e;
+  font-weight: bold;
+}
+/* .scrolled > div > ul > a > li,
+.scrolled ul:nth-child(1) > a > h5 {
+  color: white;
+} */
+.color {
+  color: #0077b6;
+}
+.color2 {
+  color: #00b4d8;
+}
+button {
+  width: 170px;
+  border-radius: 45px;
+  padding: 10px;
+  background-color: #03045e;
+  color: white;
+  border: none;
+  margin: 15px 0;
+  transition: 0.3s ease-in-out;
+}
+button:hover {
+  border: 1px solid #03045e;
+  background-color: white;
+  color: #03045e;
+  cursor: pointer;
+}
+button.disabled {
+  cursor: not-allowed;
+  background-color: #373862;
+  color: white;
+}
+button.disabled :hover {
+  cursor: not-allowed;
+  border: none;
+  background-color: #353661;
+  color: white;
+}
+
+.heading {
+  color: #474747;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.fa-brands {
+  font-size: 4rem;
+}
+.fa-bars {
+  color: #03045e;
+}
+.fa-bars:active {
+  border: none;
+}
+
+.card {
+  background-color: #ffffff77;
+  border-radius: 25px;
+}
+
+@media (max-width: 800px) {
+}

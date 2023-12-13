@@ -1,0 +1,41 @@
+.skill-card {
+  padding: 10px;
+  color: black;
+  background-color: #03055e00;
+  transition: 0.25s ease-in-out;
+  top: 0px;
+  transition: 0, 25s ease-in-out;
+}
+.skill-card:hover {
+  top: -4px;
+  color: #03045e;
+}
+.skill-card > p {
+  margin-bottom: 0;
+}
+
+.bg {
+  background-color: #e7e8ff;
+}
+.img-container {
+  border-radius: 30px;
+
+  height: fit-content;
+}
+.small-img-container {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  height: fit-content;
+}
+
+@media (max-width: 800px) {
+  /* .small-img-container {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    height: fit-content;
+  } */
+}

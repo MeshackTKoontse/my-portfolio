@@ -1,0 +1,12 @@
+.error {
+  color: rgb(245, 0, 0);
+}
+
+.bg {
+  background-color: #e2faff;
+}
+.error > input,
+.error > textarea {
+  border-color: rgb(246, 94, 94);
+  background-color: rgb(247, 185, 185);
+}

@@ -1,0 +1,71 @@
+.card-heading {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-heading > img {
+  margin: auto;
+}
+.starter-icon {
+  width: 30px;
+  height: 30px;
+}
+.professional-icon {
+  width: 50px;
+  height: 50px;
+}
+.project-screenshot {
+  width: 250px;
+  height: auto;
+  padding: 0;
+}
+.profile-icon-container {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.enterprise-icon {
+  width: 70px;
+  height: 70px;
+}
+.was {
+  text-decoration: line-through;
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+}
+.price {
+  font-size: 17px;
+  font-weight: bold;
+  color: magenta;
+}
+.services {
+  list-style: none;
+}
+
+.services li:before {
+  content: " ✔ ";
+  color: #8055dd;
+  font-weight: bold;
+}
+.catalogue-card {
+  border: none;
+  border-radius: 0;
+  box-shadow: 10px 10px 2px #8055dd1d;
+  height: 70vh;
+}
+.choose-package {
+  color: white;
+  background-color: #8055dd;
+  width: 170px;
+  padding: 7px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.choose-package:hover {
+  color: white;
+  background-color: #915dff;
+}

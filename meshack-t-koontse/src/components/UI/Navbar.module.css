@@ -1,0 +1,30 @@
+.nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+}
+
+.nav > div {
+  display: flex;
+}
+.nav > div > a {
+  width: fit-content;
+}
+
+.a {
+  text-decoration: none;
+}
+.li {
+  list-style: none;
+  margin: 30px;
+  color: #03045e;
+}
+
+.profile-icon-container {
+  width: 65px;
+  height: 65px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 8px;
+}
