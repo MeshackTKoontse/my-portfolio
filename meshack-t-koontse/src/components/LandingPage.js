@@ -14,7 +14,7 @@ const LandingPage = () => {
               </h4>
               <h1 className={classes.heading}>
                 Hello, my name is <span className="color2">Meshack</span>, and I
-                am a <span className="color">Full-Stack Developer</span>...
+                am -a <span className="color">Full-Stack Developer</span>...
               </h1>
               <div className="d-flex">
                 <button className="mx-lg-0 mx-auto my-4 my-lg-auto">
