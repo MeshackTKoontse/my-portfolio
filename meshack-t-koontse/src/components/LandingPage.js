@@ -1,8 +1,11 @@
 import classes from "./landingPage.module.css";
+import { useRouter } from "next/router";
 
 import Image from "next/image";
 
 const LandingPage = () => {
+  const router = useRouter();
+
   return (
     <div id="home" className="section">
       <div className="container px-0 pt-5">
@@ -17,8 +20,15 @@ const LandingPage = () => {
                 am -a <span className="color">Full-Stack Developer</span>...
               </h1>
               <div className="d-flex">
-                <button className="mx-lg-0 mx-auto my-4 my-lg-auto">
-                  Download CV <i class="fa-solid fa-download"></i>
+                <button
+                  className="mx-lg-0 mx-auto my-4 my-lg-auto"
+                  onClick={() =>
+                    router.push(
+                      "https://wa.me/+26775702145?text=Hello, I am a recruiter, may I please have your CV."
+                    )
+                  }
+                >
+                  Request CV <i class="fa-solid fa-download"></i>
                 </button>
               </div>
             </div>
